@@ -1,0 +1,9 @@
+{
+    "name": "inviqa/phpstan-magento2",
+    "description": "Extension for PHPStan to allow analysis of Magento2 code.",
+    "type": "library",
+    "require": {
+        "phpstan/phpstan": "*"
+    },
+    "license": "MIT"
+}
