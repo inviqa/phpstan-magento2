@@ -1,0 +1,2 @@
+parameters:
+    bootstrap: %rootDir%/../../inviqa/phpstan-magento2/phpstan-bootstrap.php
