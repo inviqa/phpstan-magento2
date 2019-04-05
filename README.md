@@ -14,3 +14,17 @@ Make sure it has
 includes:
 	- vendor/inviqa/phpstan-magento2/extension.neon
 ```
+
+Whilst this extension depends on phpstan/phpstan, it can also depend on phpstan/phpstan-shim, which decouples its dependencies from Magento's own use of them. Some versions of Magento 2 will require the latter due to conflicting symfony/console version constraints.
+
+With coupled dependencies:
+
+```bash
+composer require inviqa/phpstan-magento2 phpstan/phpstan
+```
+
+With uncoupled phar package:
+
+```bash
+composer require inviqa/phpstan-magento2 phpstan/phpstan-shim
+```
