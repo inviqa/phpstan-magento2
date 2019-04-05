@@ -1,6 +1,6 @@
 <?php
 
-$rootPath = __DIR__ . '/../../';
+$rootPath = __DIR__ . '/../../../';
 
 require_once $rootPath . 'app/bootstrap.php';
 stream_wrapper_restore('phar');
